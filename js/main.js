@@ -1,7 +1,7 @@
 const profileHover = function(e) {
-  $(this).css('background-image', "url('https://i.imgur.com/pkt74cI.jpg')")
+  $(this).css('background-image', "url('../res/Background.jpg')")
 }
-
+// https://i.imgur.com/pkt74cI.jpg'
 const profileLeave = function(e) {
   $(this).attr("style","")
 }
