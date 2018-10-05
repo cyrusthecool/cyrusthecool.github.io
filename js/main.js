@@ -10,5 +10,5 @@ $(document).ready( () => {
   $('.profile')
     .on('mouseenter', profileHover)
     .on('click', profileHover)
-    .on('mouseleave', profileLeave);
+    .on('mouseleave', profileHover);
 });
