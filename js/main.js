@@ -1,14 +1,14 @@
-const profileHover = function(e) {
-  $(this).css('background-image', "url('../res/Background.jpg')")
-}
-// https://i.imgur.com/pkt74cI.jpg'
-const profileLeave = function(e) {
-  $(this).attr("style","")
-}
+// const profileHover = function(e) {
+//   $(this).css('background-image', "url('../res/Background.jpg')")
+// }
+// // https://i.imgur.com/pkt74cI.jpg'
+// const profileLeave = function(e) {
+//   $(this).attr("style","")
+// }
 
-$(document).ready( () => {
-  $('.profile')
-    .on('mouseenter', profileHover)
-    .on('click', profileHover)
-    .on('mouseleave', profileLeave);
-});
+// $(document).ready( () => {
+//   $('.profile')
+//     .on('mouseenter', profileHover)
+//     .on('click', profileHover)
+//     .on('mouseleave', profileLeave);
+// });
